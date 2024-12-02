@@ -1,7 +1,7 @@
-#1.Scenario: Food Delivery System
-#Create a system where:
-#• Restaurant handles the menu and food preparation.• Delivery manages the delivery details and rider information.• Order combines both Restaurant and Delivery to process food orders 
-and manage delivery logistics
+#1. Scenario: Library Management System
+#Creating a simple library management system where:
+#• Library handles book details.• Member handles member details.• LibraryManagement combines the features of both Library and Memberand allows borrowing books
+
 class Library:
     def __init__(self,library_name,library_address):
         self.library_name=library_name
